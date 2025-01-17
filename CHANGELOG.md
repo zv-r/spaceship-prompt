@@ -1,3 +1,132 @@
+# [4.17.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.16.2...v4.17.0) (2024-10-23)
+
+
+### Features
+
+* **gleam:** Add section for Gleam programming language ([#1459](https://github.com/spaceship-prompt/spaceship-prompt/issues/1459)) ([6555d9b](https://github.com/spaceship-prompt/spaceship-prompt/commit/6555d9bed9a53ed8694b5e211e5dad8ccc8b4cb4))
+
+## [4.16.2](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.16.1...v4.16.2) (2024-09-25)
+
+
+### Bug Fixes
+
+* **docker-compose:** add 'compose.y*ml' to upsearch ([#1455](https://github.com/spaceship-prompt/spaceship-prompt/issues/1455)) ([f030908](https://github.com/spaceship-prompt/spaceship-prompt/commit/f03090839478e8d93025ad49492a044725ea3a53)), closes [#1450](https://github.com/spaceship-prompt/spaceship-prompt/issues/1450)
+
+## [4.16.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.16.0...v4.16.1) (2024-09-18)
+
+
+### Bug Fixes
+
+* **maven:** Fix package maven ([#1320](https://github.com/spaceship-prompt/spaceship-prompt/issues/1320)) ([b7cba0c](https://github.com/spaceship-prompt/spaceship-prompt/commit/b7cba0c92b5a44b83f9e5811586ac8dad498c998))
+
+# [4.16.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.15.3...v4.16.0) (2024-06-19)
+
+
+### Bug Fixes
+
+* **kubectl:** version output redirect ([#1437](https://github.com/spaceship-prompt/spaceship-prompt/issues/1437)) ([9373ed2](https://github.com/spaceship-prompt/spaceship-prompt/commit/9373ed2764309cc55dca648d3c4baf2aa5e99dce))
+
+
+### Features
+
+* add git_commit with git commit short hash ([#1438](https://github.com/spaceship-prompt/spaceship-prompt/issues/1438)) ([46edb9f](https://github.com/spaceship-prompt/spaceship-prompt/commit/46edb9f865831be3c0e656fbc654655256f03961)), closes [#741](https://github.com/spaceship-prompt/spaceship-prompt/issues/741) [#741](https://github.com/spaceship-prompt/spaceship-prompt/issues/741)
+* **red:** Add Red Section ([#1439](https://github.com/spaceship-prompt/spaceship-prompt/issues/1439)) ([e567f8a](https://github.com/spaceship-prompt/spaceship-prompt/commit/e567f8ade2d6ee30bd78b84e441b4d151893a598))
+
+## [4.15.3](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.15.2...v4.15.3) (2024-05-29)
+
+
+### Bug Fixes
+
+* **kubectl:** --short arg in kubectl cmd does not exist in later versions ([#1429](https://github.com/spaceship-prompt/spaceship-prompt/issues/1429)) ([96d2523](https://github.com/spaceship-prompt/spaceship-prompt/commit/96d2523e6657524ba061401529d7f501a09cd65a))
+
+## [4.15.2](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.15.1...v4.15.2) (2024-05-01)
+
+
+### Bug Fixes
+
+* **docker-compose:** include stopped containers ([#1422](https://github.com/spaceship-prompt/spaceship-prompt/issues/1422)) ([be2f603](https://github.com/spaceship-prompt/spaceship-prompt/commit/be2f6034d712c19db6ab810459c17b371ec6eb35))
+
+## [4.15.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.15.0...v4.15.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* **pulumi:** Improve search for Pulumi.yml and Pulumi.yaml to prevent 'not found' message; Add tests for Pulumi section ([#1417](https://github.com/spaceship-prompt/spaceship-prompt/issues/1417)) ([134d979](https://github.com/spaceship-prompt/spaceship-prompt/commit/134d97984900285db2c2ec0c992f4d82b74d5e17))
+
+# [4.15.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.14.1...v4.15.0) (2023-10-04)
+
+
+### Features
+
+* **extract:** Introduce extract instead of datafile ([6f7c101](https://github.com/spaceship-prompt/spaceship-prompt/commit/6f7c1017cbd253f90392514017642408fa6ed43b))
+
+## [4.14.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.14.0...v4.14.1) (2023-09-21)
+
+
+### Bug Fixes
+
+* resolve build error for mkdocs-static-i18n ([47c45b3](https://github.com/spaceship-prompt/spaceship-prompt/commit/47c45b347a5c568ecc39d177c73a79c1463e7705))
+
+# [4.14.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.5...v4.14.0) (2023-05-17)
+
+
+### Bug Fixes
+
+* control right prompt first prefix display ([79377ed](https://github.com/spaceship-prompt/spaceship-prompt/commit/79377ed247dab33dc0029a5233ccad03ae80ce61))
+* **rprompt:** Missing the first prefix of first section in right prompt order ([bc3d2c0](https://github.com/spaceship-prompt/spaceship-prompt/commit/bc3d2c043c872a68a5e1f66f235989fbe0e074da))
+
+
+### Features
+
+* **prompt:** Add SPACESHIP_RPROMPT_FIRST_PREFIX_SHOW ([42f1d8d](https://github.com/spaceship-prompt/spaceship-prompt/commit/42f1d8df13c2467d72ad37cc3393a248511de632))
+
+## [4.13.5](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.4...v4.13.5) (2023-05-12)
+
+
+### Bug Fixes
+
+* **prompt:** prompt typo - not escaping the } ([#1349](https://github.com/spaceship-prompt/spaceship-prompt/issues/1349)) ([211b281](https://github.com/spaceship-prompt/spaceship-prompt/commit/211b281d6ce142bdbdaf251ddb9ef26a79f3e6aa))
+
+## [4.13.4](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.3...v4.13.4) (2023-05-10)
+
+
+### Bug Fixes
+
+* **iterm2:** Call iterm2_prompt_end so that ⌘-k does not clear the first line in the prompt. ([#1319](https://github.com/spaceship-prompt/spaceship-prompt/issues/1319)) ([ef65357](https://github.com/spaceship-prompt/spaceship-prompt/commit/ef653576934dcc3a5a152ece7fdd3f85c586d6c5))
+
+## [4.13.3](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.2...v4.13.3) (2023-03-08)
+
+
+### Bug Fixes
+
+* **docker:** Fix missing py3-pip ([9857239](https://github.com/spaceship-prompt/spaceship-prompt/commit/9857239b1dbcc0b82181db3d6ea92c8795448c0e))
+
+## [4.13.2](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.1...v4.13.2) (2023-03-01)
+
+
+### Bug Fixes
+
+* **pulumi:** Pulumi section should match on the currently selected stack ([#1331](https://github.com/spaceship-prompt/spaceship-prompt/issues/1331)) ([67bba80](https://github.com/spaceship-prompt/spaceship-prompt/commit/67bba805d5232d719db20190a84633a64f4496b9))
+
+## [4.13.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.13.0...v4.13.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* **upsearch:** Add additional check for filename ([55027a1](https://github.com/spaceship-prompt/spaceship-prompt/commit/55027a1c445534ca7c18814f89d7d521f38f4ef3))
+
+# [4.13.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.12.0...v4.13.0) (2023-01-04)
+
+
+### Bug Fixes
+
+* **scala:** Scala version detection ([#1315](https://github.com/spaceship-prompt/spaceship-prompt/issues/1315)) ([f21184b](https://github.com/spaceship-prompt/spaceship-prompt/commit/f21184b28567e5b5f4ff00e269fc1eb17c74c55f))
+
+
+### Features
+
+* **az:** Add Azure section ([#411](https://github.com/spaceship-prompt/spaceship-prompt/issues/411)) ([5e5a2e2](https://github.com/spaceship-prompt/spaceship-prompt/commit/5e5a2e2da136fdf3d98da3ec867c2ab4e29ba995))
+
 # [4.12.0](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.11.1...v4.12.0) (2022-12-07)
 
 
