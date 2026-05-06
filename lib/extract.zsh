@@ -23,11 +23,11 @@ spaceship::extract::python::json() {
 
 spaceship::extract::python::toml() {
   local file=$1; shift
-  local import py_version="${(@)$(python3 -V 2>&1)[2]}"
+  local import py_version=${(@)$(python3 -V 2>&1)[2]}
   autoload is-at-least
   # Python 3.11 added tomllib in the stdlib.
   # Previous versions require the tomli package
-  if is-at-least 3.11 "$py_version" ]]; then
+  if is-at-least 3.11 "$py_version"; then
     import=tomllib
   else
     import=tomli
