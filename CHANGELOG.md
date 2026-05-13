@@ -1,3 +1,10 @@
+## [4.22.2](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.22.1...v4.22.2) (2026-05-13)
+
+
+### Bug Fixes
+
+* fix python version ([#1551](https://github.com/spaceship-prompt/spaceship-prompt/issues/1551)) ([65d2751](https://github.com/spaceship-prompt/spaceship-prompt/commit/65d27510ddbd67898e1556f209397441154ea1d5))
+
 ## [4.22.1](https://github.com/spaceship-prompt/spaceship-prompt/compare/v4.22.0...v4.22.1) (2026-03-22)
 
 
